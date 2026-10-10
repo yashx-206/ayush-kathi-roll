@@ -1,0 +1,260 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-display: 'Syne', sans-serif;
+    --font-heading: 'Poppins', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #060608;
+    color: #eae7e1;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-cinematic {
+    font-family: var(--font-serif);
+    letter-spacing: 0.04em;
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-heading {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Cinematic gold, amber and tandoori glow gradients */
+.glow-gold {
+  box-shadow: 0 0 50px -10px rgba(217, 119, 6, 0.35);
+}
+
+.glow-flame {
+  box-shadow: 0 0 60px -5px rgba(245, 158, 11, 0.25);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #fef3c7 0%, #fbbf24 50%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-tandoori-gradient {
+  background: linear-gradient(135deg, #fef2f2 0%, #ef4444 40%, #b91c1c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Dietary badges for dark luxury theme */
+.veg-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid #22c55e;
+  border-radius: 3px;
+  background-color: rgba(34, 197, 94, 0.1);
+  flex-shrink: 0;
+}
+.veg-badge::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #22c55e;
+}
+
+.non-veg-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid #ef4444;
+  border-radius: 3px;
+  background-color: rgba(239, 68, 68, 0.1);
+  flex-shrink: 0;
+}
+.non-veg-badge::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ef4444;
+}
+
+.egg-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid #f59e0b;
+  border-radius: 3px;
+  background-color: rgba(245, 158, 11, 0.1);
+  flex-shrink: 0;
+}
+.egg-badge::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #f59e0b;
+}
+
+/* Subtle particle and steam float animations */
+@keyframes floatParticle {
+  0% {
+    transform: translateY(0px) translateX(0px) rotate(0deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-160px) translateX(25px) rotate(35deg);
+    opacity: 0;
+  }
+}
+
+.animate-particle {
+  animation: floatParticle 8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #060608;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706;
+}
+
+/* High-End Food Commercial Camera Animations */
+/* Slow dolly push-in: one gentle direction per pass with a soft drift, eased at both ends so the
+   camera never visibly stops or snaps. Alternates so it glides back just as slowly. */
+@keyframes slowCameraPush {
+  0% {
+    transform: scale(1.02) translate3d(0.4%, 0.3%, 0);
+  }
+  100% {
+    transform: scale(1.075) translate3d(-0.7%, -0.5%, 0);
+  }
+}
+
+.animate-slow-push {
+  animation: slowCameraPush 32s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite alternate;
+  transform-origin: 50% 55%;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+/* Endless forward push for the hero dish: very slow zoom in, with long soft fades at each end */
+@keyframes endlessCameraPush {
+  0% {
+    transform: scale(1.0) translate3d(0, 0, 0);
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+  }
+  88% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.08) translate3d(-0.4%, -0.6%, 0);
+    opacity: 0;
+  }
+}
+
+.animate-endless-push {
+  animation: endlessCameraPush 48s linear infinite;
+  transform-origin: 52% 58%;
+  backface-visibility: hidden;
+  will-change: transform, opacity;
+}
+
+@keyframes smokeDrift {
+  0% {
+    transform: translateY(0%) scale(1);
+    opacity: 0.22;
+  }
+  50% {
+    transform: translateY(-3%) scale(1.04);
+    opacity: 0.38;
+  }
+  100% {
+    transform: translateY(0%) scale(1);
+    opacity: 0.22;
+  }
+}
+
+.animate-smoke-drift {
+  animation: smokeDrift 14s ease-in-out infinite;
+}
+
+@keyframes heatHazeShimmer {
+  0% {
+    opacity: 0.22;
+  }
+  50% {
+    opacity: 0.38;
+  }
+  100% {
+    opacity: 0.22;
+  }
+}
+
+.animate-heat-haze {
+  animation: heatHazeShimmer 4.5s ease-in-out infinite;
+  mix-blend-mode: screen;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-slow-push,
+  .animate-endless-push,
+  .animate-smoke-drift,
+  .animate-heat-haze {
+    animation: none;
+  }
+}
+
+/* Phones and touch tablets: drop the effects mobile GPUs struggle with most
+   (huge blurred glows, frosted-glass blur, extra animated layers). The look stays the same. */
+@media (max-width: 768px), (pointer: coarse) {
+  .blur-\[100px\],
+  .blur-\[140px\],
+  .blur-\[160px\],
+  .blur-3xl {
+    display: none !important;
+  }
+  .backdrop-blur-md,
+  .backdrop-blur-xl,
+  .backdrop-blur-2xl {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+  #flavor .animate-slow-push {
+    animation: none;
+  }
+  .animate-slow-push,
+  .animate-endless-push {
+    will-change: auto;
+  }
+}
