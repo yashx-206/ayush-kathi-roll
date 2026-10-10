@@ -48,10 +48,6 @@ npm run build      # production build in dist/
 | Food photos | `src/assets/images/web` |
 | Google title, description and business info | `index.html` |
 
-## 🔒 Private preview
-
-The live site currently shows a password screen (`middleware.ts`) so it can be shared privately. To change the password, replace `PASSWORD_SHA256` in that file with the SHA-256 of the new one. To make the site public, delete `middleware.ts`.
-
 ## 🌍 Deploy
 
 Every push to `main` deploys automatically on Vercel. To deploy a copy elsewhere, import the repository in Vercel (settings are in `vercel.json`) or run `npx vercel --prod`.
