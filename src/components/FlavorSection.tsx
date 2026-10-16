@@ -136,7 +136,7 @@ export const FlavorSection: React.FC = () => {
               &ldquo;The secret to the famous roll is the dialogue between fire, cold spices, and the rhythmic roll of the wooden spatula over cast iron.&rdquo;
             </p>
             <span className="block mt-2 text-xs uppercase tracking-[0.2em] text-amber-400 font-semibold">
-              — Master Tawa Kitchen · Ayush Kathi Roll, Palam
+              — Master Tawa Kitchen · Food Adda, Palam
             </span>
           </div>
 

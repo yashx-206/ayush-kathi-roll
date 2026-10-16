@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
               </div>
               <div>
                 <span className="font-heading text-xl font-black tracking-tight text-white uppercase block leading-none">
-                  AYUSH KATHI ROLL
+                  FOOD ADDA
                 </span>
                 <span className="text-[10px] tracking-[0.25em] text-amber-500/90 font-bold uppercase block mt-1">
                   Famous Roll in Palam · New Delhi
@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
 
             <div className="flex items-center gap-3 pt-2">
               <a
-                href={`https://wa.me/${OUTLET_INFO.whatsapp}?text=${encodeURIComponent('Hi Ayush Kathi Roll, I want to order for home delivery.')}`}
+                href={`https://wa.me/${OUTLET_INFO.whatsapp}?text=${encodeURIComponent('Hi Food Adda, I want to order for home delivery.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-3.5 py-1.5 rounded-lg bg-stone-900 border border-stone-700 hover:border-emerald-500 text-emerald-400 text-xs font-black tracking-wider transition-colors flex items-center gap-1.5"
@@ -128,7 +128,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-stone-500 font-light">
           <div>
-            © {new Date().getFullYear()} Ayush Kathi Roll. Famous Roll in Palam, New Delhi. All rights reserved.
+            © {new Date().getFullYear()} Food Adda. Famous Roll in Palam, New Delhi. All rights reserved.
           </div>
           <div className="flex items-center gap-6">
             <a href="#menu" className="hover:text-stone-300 transition-colors">

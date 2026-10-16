@@ -29,7 +29,7 @@ export const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({ itemCount, t
 
   return (
     <a
-      href={whatsappLink('Hi Ayush Kathi Roll, I want to order for home delivery.')}
+      href={whatsappLink('Hi Food Adda, I want to order for home delivery.')}
       target="_blank"
       rel="noopener noreferrer"
       className={`${base} p-3.5 sm:pr-5`}

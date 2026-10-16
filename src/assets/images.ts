@@ -1,4 +1,4 @@
-// Ayush Kathi Roll - Cinematic Food & Kitchen Imagery
+// Food Adda - Cinematic Food & Kitchen Imagery
 // Each photo ships as a compressed WebP in two sizes: phones get the small set, larger screens the large set.
 import heroRollLg from './images/web/hero_kathi_roll_1791306893707-lg.webp';
 import heroRollSm from './images/web/hero_kathi_roll_1791306893707-sm.webp';

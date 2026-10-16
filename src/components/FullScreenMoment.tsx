@@ -12,7 +12,7 @@ export const FullScreenMoment: React.FC = () => {
           loading="lazy"
           decoding="async"
           src={CINEMATIC_IMAGES.heroDish}
-          alt="Freshly made food at Ayush Kathi Roll, Palam"
+          alt="Freshly made food at Food Adda, Palam"
           className="w-full h-full object-cover opacity-40 scale-105 animate-slow-push"
         />
         <div className="absolute inset-0 bg-radial-gradient from-transparent via-black/50 to-black/95" />

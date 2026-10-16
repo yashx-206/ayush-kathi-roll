@@ -92,7 +92,7 @@ export const LocationSection: React.FC = () => {
               </a>
 
               <a
-                href={`https://wa.me/${OUTLET_INFO.whatsapp}?text=${encodeURIComponent('Hi Ayush Kathi Roll, I want to order for home delivery.')}`}
+                href={`https://wa.me/${OUTLET_INFO.whatsapp}?text=${encodeURIComponent('Hi Food Adda, I want to order for home delivery.')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold text-center flex items-center justify-center gap-2 shadow-lg shadow-emerald-950/40 transition-all"
@@ -106,7 +106,7 @@ export const LocationSection: React.FC = () => {
           {/* Embedded Google Map */}
           <div className="lg:col-span-7 rounded-2xl overflow-hidden border border-amber-900/40 shadow-2xl bg-black min-h-[360px] relative flex items-center justify-center">
             <iframe
-              title="Ayush Kathi Roll delivery area map, Palam, New Delhi"
+              title="Food Adda delivery area map, Palam, New Delhi"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14013.235552399583!2d77.078216!3d28.590514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b32d2077e69%3A0xc0d71dc9e4ea0ef!2sPalam%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"
               className="w-full h-full min-h-[420px] border-0"
               loading="lazy"

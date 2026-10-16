@@ -61,7 +61,7 @@ export const OrderDrawer: React.FC<OrderDrawerProps> = ({
       .map((line, i) => `${i + 1}. ${line.quantity} x ${line.item.name} - ₹${line.item.price * line.quantity}`)
       .join('\n');
     const message =
-      `*NEW DELIVERY ORDER - AYUSH KATHI ROLL*\n\n` +
+      `*NEW DELIVERY ORDER - FOOD ADDA*\n\n` +
       `${lines}\n\n` +
       `*Total: ₹${totalPrice}* (${itemCount} item${itemCount > 1 ? 's' : ''})\n\n` +
       (hasFood ? `Spice level: ${spiceLevel}\nParatha: ${parathaCrispness}\n` : '') +

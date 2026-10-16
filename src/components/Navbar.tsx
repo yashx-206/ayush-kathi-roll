@@ -37,14 +37,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenOrder, orderCount = 0 }) =
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-3">
-        {/* Brand Mark: Ayush Kathi Roll - Famous Roll in Palam */}
+        {/* Brand Mark: Food Adda - Famous Roll in Palam */}
         <a href="#hero" className="flex items-center gap-2.5 sm:gap-3 group min-w-0">
           <div className="shrink-0 w-9 h-9 sm:w-10 sm:h-10 rounded-xl border border-amber-500/40 bg-gradient-to-br from-red-950/80 to-amber-950/80 flex items-center justify-center group-hover:border-amber-400 group-hover:scale-105 transition-all duration-300 shadow-md">
             <Flame className="w-5 h-5 text-amber-400 group-hover:text-amber-300" />
           </div>
           <div>
             <span className="font-heading text-[15px] min-[400px]:text-base sm:text-xl font-black tracking-tight whitespace-nowrap text-white group-hover:text-amber-200 transition-colors uppercase block leading-none">
-              AYUSH KATHI ROLL
+              FOOD ADDA
             </span>
             <span className="hidden sm:block text-[9px] sm:text-[10px] tracking-[0.25em] text-amber-400/90 font-bold uppercase mt-1">
               Famous Roll in Palam · New Delhi

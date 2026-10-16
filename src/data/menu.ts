@@ -23,7 +23,7 @@ export interface ComboOffer {
 }
 
 export const OUTLET_INFO = {
-  name: 'Ayush Kathi Roll',
+  name: 'Food Adda',
   tagline: 'Famous Roll in Palam, New Delhi',
   subline: 'Freshly rolled on high-flame iron tawa since 2014',
   address: 'Shop No. 4, Main Railway Road, Near Palam Metro Pillar 42, Palam Colony, New Delhi 110045',
@@ -379,7 +379,7 @@ export const FULL_MENU_ITEMS: MenuItem[] = [
   },
   {
     id: 'vr-18',
-    name: 'Ayush Special Veg Jumbo Roll',
+    name: 'Adda Special Veg Jumbo Roll',
     category: 'Veg Kathi Rolls',
     price: 190,
     dietary: 'veg',
@@ -536,7 +536,7 @@ export const FULL_MENU_ITEMS: MenuItem[] = [
   },
   {
     id: 'nr-18',
-    name: 'Ayush Mahabali Non-Veg Monster Roll',
+    name: 'Adda Mahabali Non-Veg Monster Roll',
     category: 'Non-Veg Kathi Rolls',
     price: 240,
     dietary: 'non-veg',
@@ -1039,7 +1039,7 @@ export const CUSTOMER_REVIEWS = [
     source: 'Google Reviews',
     date: '1 week ago',
     comment:
-      'We often order late night from Ayush Kathi Roll. Paneer Tikka and Veg Kurkure Momos are always super fresh and piping hot. Fast delivery and clean packaging!',
+      'We often order late night from Food Adda. Paneer Tikka and Veg Kurkure Momos are always super fresh and piping hot. Fast delivery and clean packaging!',
   },
   {
     id: 'rev-3',
@@ -1049,7 +1049,7 @@ export const CUSTOMER_REVIEWS = [
     source: 'Zomato Foodie',
     date: '3 days ago',
     comment:
-      'Living in Palam for 10 years and Ayush Kathi Roll is our go-to spot. Real tawa flavor, great portion size, and super reasonable prices. Cold coffee is also surprisingly delicious!',
+      'Living in Palam for 10 years and Food Adda is our go-to spot. Real tawa flavor, great portion size, and super reasonable prices. Cold coffee is also surprisingly delicious!',
   },
   {
     id: 'rev-4',

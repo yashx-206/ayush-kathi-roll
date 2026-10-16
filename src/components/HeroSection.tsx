@@ -72,7 +72,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         <div className="inline-flex flex-wrap items-center justify-center gap-x-2 gap-y-1 max-w-full px-4 py-1.5 rounded-full border border-amber-500/30 bg-black/70 backdrop-blur-md mb-6 shadow-lg shadow-amber-950/20">
           <Sparkles className="w-3.5 h-3.5 text-amber-400" />
           <span className="text-[10px] sm:text-[11px] font-bold tracking-[0.18em] sm:tracking-[0.25em] uppercase text-amber-200">
-            <span className="hidden sm:inline">Ayush Kathi Roll · </span>Famous Roll in Palam, New Delhi
+            <span className="hidden sm:inline">Food Adda · </span>Famous Roll in Palam, New Delhi
           </span>
           <span className="hidden sm:inline text-amber-500/60">·</span>
           <span className="flex items-center gap-1 text-[11px] font-bold text-amber-300">
@@ -115,7 +115,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <div className="relative w-full h-full overflow-hidden">
               <img
                 src={CINEMATIC_IMAGES.heroDish}
-                alt="Ayush Kathi Roll signature dish, hot off the tawa in Palam, New Delhi"
+                alt="Food Adda signature dish, hot off the tawa in Palam, New Delhi"
                 fetchPriority="high"
                 className={`absolute inset-0 w-full h-full object-cover ${LITE_MODE ? 'animate-slow-push' : 'animate-endless-push'}`}
               />

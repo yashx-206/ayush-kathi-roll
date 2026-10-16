@@ -141,7 +141,7 @@ export default function App() {
             <Check className="w-4 h-4 stroke-[3]" />
           </div>
           <div className="text-xs">
-            <div className="font-bold text-amber-300 uppercase tracking-wider">Ayush Kathi Roll</div>
+            <div className="font-bold text-amber-300 uppercase tracking-wider">Food Adda</div>
             <div className="text-stone-300">{toastMessage}</div>
           </div>
         </div>

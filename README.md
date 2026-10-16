@@ -1,13 +1,13 @@
 <div align="center">
 
-# 🌯 Ayush Kathi Roll
+# 🌯 Food Adda
 
 **Famous Roll in Palam, New Delhi.** Tawa-fresh kathi rolls, momos, burgers and cold drinks.
 Home delivery only, ordered straight through WhatsApp.
 
 [**🌐 Live website**](https://ayush-kathi-roll.vercel.app) · [**💬 Order on WhatsApp**](https://wa.me/918595374660)
 
-<img src="docs/screenshot-desktop.jpg" alt="Ayush Kathi Roll website on desktop" width="760" />
+<img src="docs/screenshot-desktop.jpg" alt="Food Adda website on desktop" width="760" />
 
 </div>
 

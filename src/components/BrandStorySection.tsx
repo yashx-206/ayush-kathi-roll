@@ -19,7 +19,7 @@ export const BrandStorySection: React.FC = () => {
                   loading="lazy"
                   decoding="async"
                   src={CINEMATIC_IMAGES.flameAction}
-                  alt="Roaring flame over seasoned iron plate at Ayush Kathi Roll"
+                  alt="Roaring flame over seasoned iron plate at Food Adda"
                   className="w-full h-full object-cover animate-slow-push transition-transform duration-1000 group-hover:scale-105"
                 />
               </div>
@@ -58,7 +58,7 @@ export const BrandStorySection: React.FC = () => {
             </h2>
 
             <p className="text-base text-stone-300 leading-relaxed font-light">
-              Founded in 2014 on Main Railway Road in Palam, <strong>Ayush Kathi Roll</strong> was built on an uncompromising philosophy: elevate authentic Delhi street food to an artisanal culinary science.
+              Founded in 2014 on Main Railway Road in Palam, <strong>Food Adda</strong> was built on an uncompromising philosophy: elevate authentic Delhi street food to an artisanal culinary science.
             </p>
 
             <p className="text-sm text-stone-400 leading-relaxed font-light">

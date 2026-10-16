@@ -82,7 +82,7 @@ export const IngredientsSection: React.FC = () => {
             THE ANATOMY OF <span className="text-gold-gradient">PERFECTION.</span>
           </h2>
           <p className="mt-4 text-sm sm:text-base text-stone-300 font-light tracking-wide leading-relaxed">
-            Select any ingredient pin to reveal its sourcing, preparation discipline, and flavor contribution to Ayush Kathi Roll's legendary recipe.
+            Select any ingredient pin to reveal its sourcing, preparation discipline, and flavor contribution to Food Adda's legendary recipe.
           </p>
         </div>
 
@@ -96,7 +96,7 @@ export const IngredientsSection: React.FC = () => {
                   loading="lazy"
                   decoding="async"
                   src={CINEMATIC_IMAGES.overheadShowcase}
-                  alt="Overhead view of Ayush Kathi Roll dishes"
+                  alt="Overhead view of Food Adda dishes"
                   className="w-full h-full object-cover animate-slow-push transition-transform duration-1000 group-hover:scale-105"
                 />
               </div>
